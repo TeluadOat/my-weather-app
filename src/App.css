@@ -1,0 +1,37 @@
+.weather-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-card h2 {
+    margin-top: 10px;
+    color: #004aad
+}
+
+.weather-card img {
+    width: 100px;
+}
+
+.weather-card p {
+    margin: 6px 0;
+    font-size: 1.1rem;
+}
+
+.loading {
+    opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+    .weather-container {
+        padding: 15px;
+    }
+
+    .weather-card img {
+        width: 80px;
+    }
+}
